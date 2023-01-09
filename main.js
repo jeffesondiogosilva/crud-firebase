@@ -42,13 +42,13 @@ function cadastraCliente(){
     event.preventDefault()
     let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/clientes/Nome.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
     
-    let estado = document.getElementById('ent-estado');
+    let estado = document.getElementById('ent-estado').value;
     let grupo = document.getElementById('ent-grupo').value;
     let nome = document.getElementById('ent-nome').value;
 
 
      body = {
-        "estado" : estado.value,
+        "estado" : estado,
         "grupo" : grupo,
         "nome" : nome
     }
