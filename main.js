@@ -14,7 +14,7 @@ botao.addEventListener('click', (e) => {
         cache: 'default'
     }
 
-    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/clientes.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
+    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/clientes/Nome/.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
         .then(response => {response.json()
         .then(data => dados.innerHTML = JSON.stringify(data)) //este segundo then está dentro do primeiro then
         })
