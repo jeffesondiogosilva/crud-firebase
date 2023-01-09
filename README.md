@@ -7,9 +7,10 @@
 ### Funcionalidades
 
 - [X] SELECIONAR MODALIDADE <br>
-- [X] DEFINIR REGRAS <br>
+- [X] SALVAR DADOS REMOTAMENTE <br>
 - [X] MELHORAR ESTILIZAÇÃO <br>
-- [X] TRABALHAR COM A API <br>
+- [X] TRABALHAR COM BANCO DE DADOS EM NUVEM <br>
+
 
 ### Como utilizar
 #### 
