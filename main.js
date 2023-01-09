@@ -42,13 +42,25 @@ function cadastraCliente(){
     event.preventDefault()
     let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/clientes/Nome.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
     
+    let estado = document.getElementById('ent-estado');
+    let grupo = document.getElementById('ent-grupo').value;
+    let nome = document.getElementById('ent-nome').value;
+
 
      body = {
-        "estado" : "RJ",
-        "grupo" : "padaria",
-        "nome" : "cliente4"
+        "estado" : estado.value,
+        "grupo" : grupo,
+        "nome" : nome
     }
 
+    estado = '';
+    grupo = '';
+    nome = '';
+
+    console.log(estado);
+
     fazPost(url, body)
+
+    
 
 }
