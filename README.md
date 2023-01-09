@@ -10,10 +10,10 @@
 - [X] SALVAR DADOS REMOTAMENTE <br>
 - [X] MELHORAR ESTILIZAÇÃO <br>
 - [X] TRABALHAR COM BANCO DE DADOS EM NUVEM <br>
-
+- [X] GUARDAR INFORMAÇÕES DE FORMA SEGURA <br>
 
 ### Como utilizar
-#### 
+#### Basta acessar o link para usar a aplicação
 
 ### Tecnologias
 #### HTML, CSS, JavaScript
