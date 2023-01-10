@@ -56,11 +56,13 @@ function cadastraCliente(){
         "senha" : senha
     }
 
+    alert(nome + ", seu cadastro foi salvo!")
+    
     email = '';
     nome = '';
     senha = '';
 
-    console.log(estado);
+    console.log(nome);
 
     fazPost(url, body)
 
