@@ -38,11 +38,10 @@ function fazPost(url, body) {
     }
 }
 
-var contador = 0;
 
 function cadastraCliente(){
     event.preventDefault();
-    contador++;
+    
     let url = `https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn`; 
     
     let email = document.getElementById('ent-email').value;
