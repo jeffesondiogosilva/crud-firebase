@@ -43,8 +43,8 @@ function cadastraCliente(){
     event.preventDefault()
     let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
     
-    let estado = document.getElementById('ent-estado').value;
-    let grupo = document.getElementById('ent-grupo').value;
+    let email = document.getElementById('ent-email').value;
+    let senha = document.getElementById('ent-senha').value;
     let nome = document.getElementById('ent-nome').value;
 
 
