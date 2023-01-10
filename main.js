@@ -40,7 +40,7 @@ function fazPost(url, body) {
 
 function cadastraCliente(){
     event.preventDefault()
-    let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/clientes/.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
+    let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios/1.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
     
     let estado = document.getElementById('ent-estado').value;
     let grupo = document.getElementById('ent-grupo').value;
