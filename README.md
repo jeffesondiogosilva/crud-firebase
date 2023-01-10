@@ -13,7 +13,7 @@
 - [X] GUARDAR INFORMAÇÕES DE FORMA SEGURA <br>
 
 ### Como utilizar
-#### Basta acessar o link para usar a aplicação rodando o bacno de dados remotamente
+#### Basta acessar o link para usar a aplicação rodando o banco de dados remotamente
 
 ### Tecnologias
 #### HTML, CSS, JavaScript
