@@ -38,10 +38,12 @@ function fazPost(url, body) {
     }
 }
 
+var contador = 0;
 
 function cadastraCliente(){
     event.preventDefault()
-    let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
+    contador++;
+    let url = `https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios${contador}.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn`; 
     
     let email = document.getElementById('ent-email').value;
     let senha = document.getElementById('ent-senha').value;
@@ -49,8 +51,8 @@ function cadastraCliente(){
 
 
      body = {
-        "estado" : estado,
-        "grupo" : grupo,
+        "email" : email,
+        "senha" : senha,
         "nome" : nome
     }
 
