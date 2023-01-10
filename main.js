@@ -32,8 +32,8 @@ function fazPost(url, body) {
     request.send(JSON.stringify(body));
 
     request.onload = function() {
-        console.log(this.responseText)
-
+        console.log(this.responseText.name)
+        
         return request.responseText;
     }
 }
@@ -52,14 +52,15 @@ function cadastraCliente(){
      body = {
         "email" : email,
         "nome" : nome,
-        "senha" : senha
+        "senha" : senha,
+        "id" : ''
     }
 
     alert(nome + ", seu cadastro foi salvo!")
     
-    email = '';
-    nome = '';
-    senha = '';
+    // email = '';
+    // nome = '';
+    // senha = '';
 
     console.log(nome);
 
