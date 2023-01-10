@@ -14,7 +14,7 @@ botao.addEventListener('click', (e) => {
         cache: 'default'
     }
 
-    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios/1/email.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
+    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
         .then(response => {response.json()
         .then(data => dados.innerHTML = JSON.stringify(data)) //este segundo then está dentro do primeiro then
         .then(texto => texto.replace(/["]/g, '')) 
@@ -41,24 +41,24 @@ function fazPost(url, body) {
 var contador = 0;
 
 function cadastraCliente(){
-    
+    event.preventDefault();
     contador++;
     let url = `https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn`; 
     
     let email = document.getElementById('ent-email').value;
-    let senha = document.getElementById('ent-senha').value;
     let nome = document.getElementById('ent-nome').value;
+    let senha = document.getElementById('ent-senha').value;
 
 
      body = {
         "email" : email,
-        "senha" : senha,
-        "nome" : nome
+        "nome" : nome,
+        "senha" : senha
     }
 
-    estado = '';
-    grupo = '';
+    email = '';
     nome = '';
+    senha = '';
 
     console.log(estado);
 
