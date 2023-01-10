@@ -14,9 +14,10 @@ botao.addEventListener('click', (e) => {
         cache: 'default'
     }
 
-    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/clientes/Nome/.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
+    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios/1/email.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
         .then(response => {response.json()
         .then(data => dados.innerHTML = JSON.stringify(data)) //este segundo then está dentro do primeiro then
+        .then(texto => texto.replace(/["]/g, '')) 
         })
         .catch(err => console.log(err))})
 
@@ -40,7 +41,7 @@ function fazPost(url, body) {
 
 function cadastraCliente(){
     event.preventDefault()
-    let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios/1.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
+    let url = "https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn";
     
     let estado = document.getElementById('ent-estado').value;
     let grupo = document.getElementById('ent-grupo').value;
