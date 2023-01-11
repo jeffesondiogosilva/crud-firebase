@@ -32,7 +32,7 @@ function fazPost(url, body) {
     request.send(JSON.stringify(body));
 
     request.onload = function() {
-        console.log(this.responseText.name)
+        console.log(this.responseText)
         
         return request.responseText;
     }
