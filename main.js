@@ -14,10 +14,10 @@ botao.addEventListener('click', (e) => {
         cache: 'default'
     }
 
-    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
+    fetch('https://teste-dados-jeff-default-rtdb.firebaseio.com/usuarios/-NLSOcd2Uyd6nS1xiOwo/nome.json?auth=sJpzoQyPT7cgiVYPu07LEwtG7HQGJqgKPKlwHIfn', options)
         .then(response => {response.json()
         .then(data => dados.innerHTML = JSON.stringify(data)) //este segundo then está dentro do primeiro then
-        .then(texto => texto.replace(/["]/g, '')) 
+        // .then(texto => JSON.parse(texto)) // 
         })
         .catch(err => console.log(err))})
 
