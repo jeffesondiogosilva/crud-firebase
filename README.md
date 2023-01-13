@@ -13,7 +13,7 @@
 - [X] ALTERAR INFORMAÇÕES EM TEMPO REAL <br>
 
 ### Como utilizar
-#### Basta acessar o link para usar a aplicação rodando o banco de dados remotamente
+#### Basta acessar o link para utilizar a aplicação, inserindo e tratando os dados através do CRUD
 
 ### Tecnologias
 #### HTML, CSS, JavaScript
