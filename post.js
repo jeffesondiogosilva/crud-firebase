@@ -31,7 +31,7 @@ function cadastraCliente(){
         "email" : email,
         "nome" : nome,
         "senha" : senha,
-        "id" : ''
+        
     }
 
     alert(nome + ", seu cadastro foi salvo!")
