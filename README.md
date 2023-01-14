@@ -18,7 +18,7 @@
 #### Basta acessar o link para utilizar a aplicação, inserindo e tratando os dados através do CRUD
 
 ### Tecnologias
-#### HTML, CSS, JavaScript, Firebase
+#### HTML, CSS, JavaScript, Firebase .
 
 ### Autor 
 #### Jeffeson Diogo Silva
