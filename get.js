@@ -3,7 +3,7 @@ const dados = document.getElementById('dados');
 
 function mostrar_dados(){
 
-    console.log('foi!');
+    console.log('mostrando');
 }
 
 botao.addEventListener('click', (e) => {
