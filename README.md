@@ -16,7 +16,7 @@
 - [] UPDATE <br>
 
 ### Como utilizar
-#### Basta acessar o link para utilizar a aplicação, inserindo e tratando os dados através do CRUD
+#### É necessário acessar o link para utilizar a aplicação, inserindo e tratando os dados através do CRUD
 
 ### Tecnologias
 #### HTML, CSS, JavaScript, Firebase 
